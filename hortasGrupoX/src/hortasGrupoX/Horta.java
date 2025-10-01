@@ -1,9 +1,17 @@
 package hortasGrupoX;
 
-public class Horta {
+public class Horta extends Talhao{
 
 	private String nome;
 	private String localizacao;
+	
+	
+	
+	public Horta(String data, String sementeira, String tipoCultura, int nIdentificacao, float area,String nome,String localizacao) {
+		super(data, sementeira, tipoCultura, nIdentificacao, area);
+		this.localizacao=localizacao;
+		this.nome=nome;
+	}
 	public String getNome() {
 		return nome;
 	}
