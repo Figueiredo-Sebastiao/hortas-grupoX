@@ -1,12 +1,12 @@
 package hortasGrupoX;
 
-public class Plantao {
+public class Plantacao {
 	
 	private String data;
 	private String sementeira;
 	private String tipoCultura;
 	
-	public Plantao(String data, String sementeira, String tipoCultura) {
+	public Plantacao(String data, String sementeira, String tipoCultura) {
 		super();
 		this.data = data;
 		this.sementeira = sementeira;
